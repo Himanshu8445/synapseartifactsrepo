@@ -17,7 +17,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "d2508e2d-9458-4c6c-b7a7-96bb244a04cc"
+				"spark.autotune.trackingId": "ede3bdf7-f0e4-43d3-af69-6af3c8f0d29e"
 			}
 		},
 		"metadata": {
@@ -25,7 +25,7 @@
 			"enableDebugMode": false,
 			"kernelspec": {
 				"name": "synapse_pyspark",
-				"display_name": "python"
+				"display_name": "Synapse PySpark"
 			},
 			"language_info": {
 				"name": "python"
@@ -53,7 +53,7 @@
 				"source": [
 					"print (\"Teladoc\")"
 				],
-				"execution_count": null
+				"execution_count": 1
 			}
 		]
 	}
