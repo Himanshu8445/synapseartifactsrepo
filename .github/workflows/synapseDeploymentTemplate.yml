@@ -11,11 +11,11 @@ on:
       source_synapse_workspace_name:
         required: true
         type: string
-        description: "Specifies the name of the synapse workspace."
+        description: "Specifies the name of the source synapse workspace."
       target_synapse_workspace_name:
         required: true
         type: string
-        description: "Specifies the name of the synapse workspace."
+        description: "Specifies the name of the target synapse workspace."
     secrets:
       azure_subscription_id:
         required: true
