@@ -40,3 +40,9 @@ jobs:
     continue-on-error: false
     if: github.event_name == 'push' || github.event_name == 'release'
     environment: ${{ inputs.environment }}
+
+    steps:
+      # Check Out Repository
+      - name: Check Out Repository
+        id: checkout_repository
+        uses: actions/checkout@v3
