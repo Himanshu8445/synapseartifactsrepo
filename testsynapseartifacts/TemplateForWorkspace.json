@@ -110,7 +110,7 @@
 						"spark.dynamicAllocation.enabled": "false",
 						"spark.dynamicAllocation.minExecutors": "2",
 						"spark.dynamicAllocation.maxExecutors": "2",
-						"spark.autotune.trackingId": "e5c0c5dc-cfa2-493c-8b48-970fd250fdb9"
+						"spark.autotune.trackingId": "646c5615-64e2-4211-8611-720440242fd4"
 					}
 				},
 				"metadata": {
@@ -128,6 +128,7 @@
 				"cells": [
 					{
 						"cell_type": "code",
+						"metadata": {},
 						"source": [
 							"print (\"Hello\")"
 						],
@@ -155,7 +156,7 @@
 						"spark.dynamicAllocation.enabled": "false",
 						"spark.dynamicAllocation.minExecutors": "2",
 						"spark.dynamicAllocation.maxExecutors": "2",
-						"spark.autotune.trackingId": "59a32c8f-cd92-4e35-82a7-f2350f3c2d05"
+						"spark.autotune.trackingId": "1be96c56-15c9-4483-af88-a2056d69bcc8"
 					}
 				},
 				"metadata": {
@@ -173,7 +174,6 @@
 				"cells": [
 					{
 						"cell_type": "code",
-						"metadata": {},
 						"source": [
 							"print (\"Teladoc\")"
 						],
