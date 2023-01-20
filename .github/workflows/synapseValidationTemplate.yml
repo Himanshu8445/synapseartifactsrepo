@@ -37,7 +37,7 @@ jobs:
     environment: ${{ inputs.environment }}
 
     steps:
-      # Check Out Repository
+      ## Check Out Repository
       - name: Check Out Repository
         id: checkout_repository
         uses: actions/checkout@v3
