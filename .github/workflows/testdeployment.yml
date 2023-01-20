@@ -1,4 +1,4 @@
-name: Synapse Deployment Template
+name: Test Deployment
 
 on:
   workflow_dispatch:
