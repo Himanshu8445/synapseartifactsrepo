@@ -158,12 +158,12 @@
 					"url": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 				},
 				"connectVia": {
-					"referenceName": "AutoResolveIntegrationRuntime",
+					"referenceName": "IntegrationRuntime1",
 					"type": "IntegrationRuntimeReference"
 				}
 			},
 			"dependsOn": [
-				"[concat(variables('workspaceId'), '/integrationRuntimes/AutoResolveIntegrationRuntime')]"
+				"[concat(variables('workspaceId'), '/integrationRuntimes/IntegrationRuntime1')]"
 			]
 		},
 		{
@@ -177,12 +177,12 @@
 					"url": "[parameters('AzureDataLakeStorage2_properties_typeProperties_url')]"
 				},
 				"connectVia": {
-					"referenceName": "AutoResolveIntegrationRuntime",
+					"referenceName": "IntegrationRuntime1",
 					"type": "IntegrationRuntimeReference"
 				}
 			},
 			"dependsOn": [
-				"[concat(variables('workspaceId'), '/integrationRuntimes/AutoResolveIntegrationRuntime')]"
+				"[concat(variables('workspaceId'), '/integrationRuntimes/IntegrationRuntime1')]"
 			]
 		},
 		{
