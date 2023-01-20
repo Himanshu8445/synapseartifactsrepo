@@ -35,11 +35,12 @@ on:
 
 jobs:
   deployment:
-    name: Deployment for dev
+    name: Deployment for ${{ inputs.environment }}
     runs-on: ubuntu-latest
     continue-on-error: false
-    if: github.event_name == 'push' || github.event_name == 'release'
-    environment: dev
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    #if: github.event_name == 'push' || github.event_name == 'release'
+    environment: ${{ inputs.environment }}
 
     steps:
       # Check Out Repository
